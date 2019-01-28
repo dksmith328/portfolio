@@ -3187,7 +3187,7 @@ div.skills-cloud {
   font-size: 48px;
   padding-bottom: 10px;
   position: absolute;
-  top: 125px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2000;
@@ -3200,7 +3200,7 @@ div.skills-cloud {
   line-height: 25px;
   padding-bottom: 25px;
   position: absolute;
-  top: 200px;
+  top: 175px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2000;
@@ -3237,7 +3237,7 @@ div.skills-cloud {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 275px;
+  top: 250px;
   width: 60%;
   z-index: 2000;
 }
@@ -3313,7 +3313,7 @@ div.skills-cloud {
 .postid-123 .case-study-sidebar p {
   display: none;
 }
-#envira-gallery-wrap-207,
+#gallery-1,
 #envira-gallery-wrap-208 {
   display: none;
 }
