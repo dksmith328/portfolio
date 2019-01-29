@@ -3321,6 +3321,59 @@ div.skills-cloud {
 .postid-57 .case-study-images img {
   padding-top: 100px;
 }
+
+#slb_viewer_wrap .slb_theme_slb_baseline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    text-align: center;
+    line-height: 0;
+    color: #000;
+    font-family: arial, verdana, sans-serif;
+    font-size: 12px;
+}
+
+#slb_viewer_wrap .slb_theme_slb_baseline .slb_viewer_layout {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#slb_viewer_wrap .slb_theme_slb_default .slb_container {
+    box-shadow: 0 0 64px -40px #fcfcfc;
+    border-radius: 5px;
+}
+
+#slb_viewer_wrap .slb_theme_slb_baseline .slb_container {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 16px;
+}
+#slb_viewer_wrap .slb_theme_slb_baseline .slb_container {
+    box-sizing: border-box;
+}
+#slb_viewer_wrap .slb_theme_slb_baseline * {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+    text-align: left;
+    vertical-align: baseline;
+    white-space: normal;
+    outline: none;
+    border: 0px;
+    background: none;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    position: static;
+    float: none;
+    clear: none;
+}
 /*Case Study*/
 
 article.case-study {
