@@ -3412,7 +3412,9 @@ div.skills-cloud {
   opacity:1;
   }
 #slb_viewer_wrap .slb_theme_slb_default .slb_details {
-  line-height:1.4em;overflow:hidden;position:relative;
+  line-height:1.4em;
+  overflow:hidden;
+  position:relative;
   }
 #slb_viewer_wrap .slb_theme_slb_default .slb_details .slb_data {
   caption-side:bottom;
@@ -3464,7 +3466,7 @@ div.skills-cloud {
     position:absolute;
     top:0;
     left:0;
-    width:100%
+    width:100%;
     z-index:99999;
     text-align:center;
     line-height:0;
@@ -3560,8 +3562,9 @@ div.skills-cloud {
   display:block;
   }
 #slb_viewer_wrap .slb_theme_slb_baseline.loading .slb_template_tag_ui {
-  opacity:0;}
-@media screen and (max-width: 480px){
+  opacity:0;
+}
+@media screen and (max-width: 480px) {
   #slb_viewer_wrap .slb_theme_slb_baseline .slb_theme_slb_baseline,
   #slb_viewer_wrap .slb_theme_slb_baseline .slb_viewer_layout,
   #slb_viewer_wrap .slb_theme_slb_baseline .slb_container {
