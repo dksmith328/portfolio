@@ -40,12 +40,12 @@ a:hover {
 	text-decoration: none;
 }
 a {
-	color: #23b6b6;
+	color: #fff;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
 a:hover {
-	color: #333;
+	color: #1c1c1c;
 }
 .bypostauthor {
 	display: block;
@@ -73,14 +73,13 @@ input[type="submit"] {
 	padding: 15px;
 	border: 0;
 	color: #fff;
-	background-color: #23b6b6;
+	background-color: #089447;
 	font-weight: 400;
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	font-family: 'Impact';
 	font-size: 24px;
-	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
 }
 input[type="submit"] {
 	margin-top: 5px;
@@ -186,7 +185,7 @@ Posts nav
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
-	float: left;
+	float: right;
 	max-width: 50%;
 	padding: 15px;
 	background-color: #17191b;
@@ -196,7 +195,7 @@ Posts nav
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
-	float: right;
+	float: left;
 	max-width: 50%;
 	padding: 15px;
 	background-color: #17191b;
@@ -506,6 +505,7 @@ section.error-404.not-found .search-submit,
 	padding: 60px;
 	background-color: #089447;
 	width: 600px;
+	margin: 75px 0 50px 0;
 }
 .type-case_studies h2 {
 	color: #fff;
@@ -515,11 +515,15 @@ section.error-404.not-found .search-submit,
 .type-case_studies h4 {
 	color: #1c1c1c;
 }
-
+.type-case_studies h4 {
+	font-family: 'Open Sans';
+}
+.type-case_studies a {
+	color: #fff;
+}
 .case_studies-images {
 	margin: 0;
 	width: 450px;
-	margin-bottom: 25px;
 }
 .page-id-246 .case_studies-images {
 	margin: 0;
@@ -530,6 +534,9 @@ section.error-404.not-found .search-submit,
 }
 .page-id-246 .entry-thumb {
 	width: 350px;
+}
+.entry-thumb img {
+	height: 260px;
 }
 .case_studies-images img {
 	position: relative;
@@ -549,15 +556,17 @@ section.error-404.not-found .search-submit,
 	margin: 0 0 1.5em;
 }
 .entry-title {
-	margin: 0 0 -25px 0;
+	margin: 0;
 }
 .single .entry-header,
 .page .entry-header {
-	margin-bottom: 30px;
 	text-align: center;
 }
+.post-246 .entry-header h1 {
+	display: none;
+}
 .entry-title a {
-	color: #000;
+	color: #1c1c1c;
 }
 .entry-title a:hover {
 	color: #23b6b6;
@@ -565,8 +574,12 @@ section.error-404.not-found .search-submit,
 .entry-content p {
 	display: none;
 }
+.entry-content h5 {
+	font-family: 'Open Sans';
+}
 .grid-layout .entry-title {
-	font-size: 28px;
+	font-size: 20px;
+	text-align: center;
 }
 .post-meta,
 .post-meta a {
@@ -673,6 +686,11 @@ section.error-404.not-found .search-submit,
 	padding: 30px;
 	border: 0;
 	background-color: #089447;
+}
+.page-header h1 {
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
 }
 .page-header .page-title {
 	margin: 0;
@@ -1044,7 +1062,6 @@ svg {
 
 .footer-svg {
 	position: relative;
-	margin-bottom: -2px;
 }
 .footer-svg.svg-block {
 	fill: #17191b;
@@ -1084,7 +1101,6 @@ svg {
 }
 .svg-container.page-header-svg {
 	position: relative;
-
 	fill: #089447;
 }
 .archive .svg-container.page-header-svg {
@@ -1108,7 +1124,6 @@ Structure
 .site-header {
 	position: relative;
 	z-index: 10;
-	margin-bottom: 45px;
 }
 .site-branding {
 	padding: 150px 0;
