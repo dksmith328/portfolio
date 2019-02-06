@@ -465,10 +465,6 @@ section.error-404.not-found .search-submit,
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-.postid-119 .site-link,
-.postid-123 .site-link {
-	display: none;
-}
 .view-work {
 	margin-top: 50px;
 	text-align: center;
