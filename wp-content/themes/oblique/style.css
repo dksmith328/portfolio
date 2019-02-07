@@ -21,7 +21,7 @@ Oblique is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic
 body {
 	color: #50545c;
 	background-color: #1c1c1c;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Robo", sans-serif;
 	font-size: 15px;
 	line-height: 1.55;
 	word-wrap: break-word;
@@ -74,11 +74,11 @@ input[type="submit"] {
 	border: 0;
 	color: #fff;
 	background-color: #089447;
-	font-weight: 400;
+	font-weight: 700;
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
-	font-family: 'Impact';
+	font-family: 'Fira Sans';
 	font-size: 24px;
 }
 input[type="submit"] {
@@ -465,6 +465,19 @@ section.error-404.not-found .search-submit,
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+.nf-form-content #nf-field-1-container,
+.nf-form-content #nf-field-2-container {
+  width: 47.5%;
+  display: inline-block;
+}
+.post-145 h1,
+.post-145 h4 {
+	color: #089447;
+	text-align: center;
+}
+#nf-field-1-container {
+  margin-right: 50px;
+}
 .view-work {
 	margin-top: 50px;
 	text-align: center;
@@ -524,7 +537,7 @@ section.error-404.not-found .search-submit,
 	color: #1c1c1c;
 }
 .type-case_studies h4 {
-	font-family: 'Open Sans';
+	font-family: 'Roboto', sans-serif;
 }
 .type-case_studies a {
 	color: #fff;
@@ -574,10 +587,10 @@ section.error-404.not-found .search-submit,
 	display: none;
 }
 .entry-title a {
-	color: #1c1c1c;
+	color: #fff !important;
 }
 .entry-title a:hover {
-	color: #23b6b6;
+	color: #1c1c1c !important;
 }
 .entry-content p {
 	display: none;
@@ -585,11 +598,13 @@ section.error-404.not-found .search-submit,
 .entry-content h5 {
 	font-size: 20px;
 	text-align: center;
-	font-family: 'Open Sans';
+	font-family: 'Roboto', sans-serif;
 }
 .grid-layout .entry-title {
 	font-size: 20px;
 	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 10px;
 }
 .nf-field-element {
 	margin-top: 25px;
@@ -627,6 +642,7 @@ section.error-404.not-found .search-submit,
 	content: "/";
 }
 .read-more {
+	display: none;
 	padding: 15px 30px 30px;
 	color: #fff;
 	background-color: #23b6b6;
@@ -1195,7 +1211,7 @@ Structure
 
 .post-inner {
 	padding: 30px;
-	background-color: #fff;
+	background-color: #089447;
 }
 .post-inner.no-thumb {
 	padding: 60px 30px 30px;
@@ -1248,7 +1264,7 @@ Menu
 	padding: 5px;
 	border-bottom: 1px solid #222;
 	text-transform: uppercase;
-	font-family: 'Impact';
+	font-family: 'Fira Sans';
 	font-size: 24px;
 }
 .slicknav_nav h1 {
