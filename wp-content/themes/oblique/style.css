@@ -175,7 +175,6 @@ Posts nav
 .site-main .posts-navigation,
 .site-main .post-navigation {
 	overflow: hidden;
-	margin: 45px 0;
 }
 .site-main .comment-navigation a,
 .site-main .posts-navigation a,
@@ -188,7 +187,7 @@ Posts nav
 	float: right;
 	max-width: 50%;
 	padding: 15px;
-	background-color: #17191b;
+	background-color: #089447;
 	-webkit-transition: background-color 0.3s;
 	transition: background-color 0.3s;
 }
@@ -198,14 +197,14 @@ Posts nav
 	float: left;
 	max-width: 50%;
 	padding: 15px;
-	background-color: #17191b;
+	background-color: #089447;
 	text-align: right;
 	-webkit-transition: background-color 0.3s;
 	transition: background-color 0.3s;
 }
 .nav-previous:hover,
 .nav-next:hover {
-	background-color: #23b6b6;
+	background-color: #1c1c1c;
 }
 .blog .nav-previous {
 	margin-left: 15px;
@@ -470,6 +469,11 @@ section.error-404.not-found .search-submit,
   width: 47.5%;
   display: inline-block;
 }
+.postid-28 .previous,
+.postid-48 .next  {
+	visibility: hidden;
+}
+.postid-48 .next
 .post-145 h1,
 .post-145 h4 {
 	color: #089447;
@@ -484,9 +488,23 @@ section.error-404.not-found .search-submit,
 }
 .entry-content h1 {
 	font-size: 64px;
-	margin: 0 0 25px 0;
+	margin: 25px 0 25px 0;
 	color: #089447;
 	text-align: center;
+}
+.entry-content h2 {
+	font-size: 36px;
+	margin: 25px 0 50px 0;
+	color: #089447;
+	text-align: center;
+}
+.nav-indicators {
+	display: flex;
+	justify-content: space-between;
+	top: -100px;
+}
+.nav-indicators h4 {
+	color: #089447;
 }
 .sticky {
 	display: block;
@@ -498,6 +516,7 @@ section.error-404.not-found .search-submit,
 	background-color: #fff;
 }
 #case {
+	margin-bottom: 100px;
 	display:flex;
 	align-items: center;
 	justify-content: space-between;
@@ -1056,7 +1075,7 @@ SVG
 	bottom: 0;
 	width: 100%;
 	height: 0;
-	padding-top: 7.93650794%;
+	padding-top: 7.93%;
 }
 .single-svg {
 	position: relative;
