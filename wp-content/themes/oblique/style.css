@@ -2396,6 +2396,38 @@ Responsive
 		background-attachment: scroll !important;
 		background-position: center !important;
 	}
+	#case {
+		margin-bottom: 100px;
+		display:block;
+	}
+	.type-case_studies,
+	.case_studies-images,
+	.case_studies-images img {
+		position: relative;
+		width: 100%;
+	}
+	.type-case_studies {
+		margin-top: 100px;
+	}
+	.case_studies-images {
+		margin-bottom: -100px;
+	}
+	.single-post-svg-bottom {
+			position: relative;
+			width: 100%;
+			fill: #1c1c1c;
+			top: -74px;
+	}
+	.single-post-svg-top {
+		position: relative;
+		width: 100%;
+		fill: #1c1c1c;
+		margin-bottom: -75px;
+}
+.footer-svg {
+    position: relative;
+    margin-bottom: -1px;
+}
 }
 @media only screen and (max-width: 991px) {
 	.grid-layout .hentry {
@@ -2453,6 +2485,31 @@ Responsive
 		margin-top: 15px;
 		text-align: center;
 	}
+	#case {
+		margin-bottom: 100px;
+		display:block;
+	}
+	.type-case_studies,
+	.case_studies-images,
+	.case_studies-images img {
+		position: relative;
+		width: 100%;
+	}
+	.case_studies-images {
+	    margin: 100px 0 -125px 0;
+	}
+	.single-post-svg-bottom {
+	    position: relative;
+	    width: 100%;
+	    fill: #1c1c1c;
+	    margin-top: 5%;
+	}
+	.single-post-svg-top {
+    position: relative;
+    width: 100%;
+    fill: #1c1c1c;
+    margin-bottom: -8%;
+}
 }
 @media only screen and (max-width: 768px) {
 	.woocommerce ul.products li.product:nth-of-type(4n+1),
