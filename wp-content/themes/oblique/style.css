@@ -617,20 +617,36 @@ section.error-404.not-found .search-submit,
 .entry-content p {
 	display: none;
 }
+.page-id-348 .hentry {
+	background-color: #089447;
+}
+.page-id-348 .single-post-svg {
+	fill: #089447 !important;
+}
+.page-id-348 .entry-content {
+	text-align: center;
+}
+.page-id-348 .entry-content h1,
+.page-id-348 .entry-content h2 {
+	color: #fff;
+	margin: 10px 0;
+}
 .download-btn {
-	background-color: #089447 !important;
+	background-color: #fff !important;
 	font-family: 'Fira Sans', sans-serif !important;
 	border: none !important;
 	text-shadow: none !important;
 	box-shadow: none !important;
 	font-size: 18px !important;
-	background: #089447 !important;
+	background: #1c1c1c !important;
 }
 .email a {
 	color: #fff;
-	background-color: #089447;
+	background-color: #1c1c1c;
 	padding: 15px;
-	margin: 0 auto;
+}
+.email {
+	margin: 50px 0;
 }
 .entry-content h5 {
 	font-size: 20px;
