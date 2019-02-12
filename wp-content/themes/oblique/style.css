@@ -617,18 +617,12 @@ section.error-404.not-found .search-submit,
 .entry-content p {
 	display: none;
 }
-.page-id-348 .hentry {
-	background-color: #089447;
-}
-.page-id-348 .single-post-svg {
-	fill: #089447 !important;
-}
 .page-id-348 .entry-content {
 	text-align: center;
 }
 .page-id-348 .entry-content h1,
 .page-id-348 .entry-content h2 {
-	color: #fff;
+	color: #089447;
 	margin: 10px 0;
 }
 .download-btn {
@@ -638,11 +632,11 @@ section.error-404.not-found .search-submit,
 	text-shadow: none !important;
 	box-shadow: none !important;
 	font-size: 18px !important;
-	background: #1c1c1c !important;
+	background: #089447 !important;
 }
 .email a {
 	color: #fff;
-	background-color: #1c1c1c;
+	background-color: #089447;
 	padding: 15px;
 }
 .email {
