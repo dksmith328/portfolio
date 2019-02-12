@@ -605,6 +605,9 @@ section.error-404.not-found .search-submit,
 .post-246 .entry-header h1 {
 	display: none;
 }
+.post-348 .entry-title {
+	display: none;
+}
 .entry-title a {
 	color: #fff !important;
 }
@@ -613,6 +616,21 @@ section.error-404.not-found .search-submit,
 }
 .entry-content p {
 	display: none;
+}
+.download-btn {
+	background-color: #089447 !important;
+	font-family: 'Fira Sans', sans-serif !important;
+	border: none !important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+	font-size: 18px !important;
+	background: #089447 !important;
+}
+.email a {
+	color: #fff;
+	background-color: #089447;
+	padding: 15px;
+	margin: 0 auto;
 }
 .entry-content h5 {
 	font-size: 20px;
@@ -2502,7 +2520,7 @@ Responsive
 	    position: relative;
 	    width: 100%;
 	    fill: #1c1c1c;
-	    margin-top: 5%;
+	    margin-top: 5.1%;
 	}
 	.single-post-svg-top {
     position: relative;
@@ -2625,6 +2643,21 @@ Responsive
 	}
 }
 @media only screen and (max-width: 460px) {
+	.case-images {
+		margin-top: 175px;
+	}
+	.single-post-svg-top {
+		margin-bottom: -8.9%;
+	}
+	.single-post-svg-bottom {
+		margin-top: 12%;
+	}
+	.nav-previous {
+		margin-right: -15px;
+	}
+	.nav-next {
+		margin-left: -15px;
+	}
 	.post-inner {
 		padding: 15px;
 	}
